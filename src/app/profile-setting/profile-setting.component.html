@@ -1,0 +1,21 @@
+<div class="grid-container">
+    <div class="welocme">
+        <h1> Good Day </h1>
+    </div>
+    <div class="profile-image">
+        <mat-card class="example-card">
+            <img mat-card-image [src]="imgUrl" [alt]="btnTitle">
+
+            <mat-card-content>
+                <p> {{btnTitle}} </p>
+            </mat-card-content>
+
+            <mat-card-actions>
+                <app-button-setting (reloadImgEvent)="reloadURL($event)"></app-button-setting>
+                <app-switch-setting (reloadImgEvent)="reloadURL($event)"></app-switch-setting>
+                <app-checkbox-setting (reloadImgEvent)="reloadURL($event)"></app-checkbox-setting>
+            </mat-card-actions>
+
+        </mat-card>
+    </div>
+</div>

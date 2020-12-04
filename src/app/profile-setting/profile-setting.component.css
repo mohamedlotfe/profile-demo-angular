@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2.1fr 0.4fr;
+    grid-template-rows: 0.2fr 1.8fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". welocme ."
+    ". profile-image ."
+    ". . .";   
+  }
+  
+.profile-image { grid-area: profile-image;margin: auto; }
+.welocme { grid-area: welocme; margin: auto; }
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
