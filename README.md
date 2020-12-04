@@ -1,4 +1,7 @@
 # ProfileDemoAngular
+<h1> About Project </h1>
+<img src="https://github.com/mohamedlotfe/profile-demo-angular/blob/master/Capture16.PNG">
+</br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
